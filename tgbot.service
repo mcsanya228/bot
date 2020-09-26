@@ -1,0 +1,14 @@
+[Unit]
+Description=Egebasher
+After=network.target
+
+[Service]
+User=tefal092002
+Group=tefal092002
+
+WorkingDirectory=/home/tefal092002/bot/
+Environment="PYTHONPATH=/home/tefal092002/bot/"
+ExecStart=/home/tefal092002/bot/.venv/bin/python /home/tefal092002/bot/main.py
+
+[Install]
+WantedBy=multi-user.target

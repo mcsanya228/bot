@@ -4,10 +4,10 @@ bot_token = '1209932930:AAEAJKgG_rjIiiMYV7XoAGknUxUwhvwMY7o' # токен бот
 CHANNEL_ID = 1215398916 # id канала куда будет отсылаться информация, ид без -100 в начале (например: 124873248) - указать заместо нуля
 
 # ID admin
-admin_id = 694598414 # id админа - указать заместо нуля
+admin_id = 1286251063 # id админа - указать заместо нуля
 
-bot_login = '@EGEbasher_bot' # логин бота
-ref_percent = 5 # Процент реферальной системы
+bot_login = 'EGEbasher_bot' # логин бота
+ref_percent = 10 # Процент реферальной системы
 
 QIWI_NUMBER = '+79674860772'    # номер киви
 QIWI_TOKEN = 'b75d575638586a013fc870e2c187bcfd'            # токен киви

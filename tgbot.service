@@ -3,12 +3,12 @@ Description=Egebasher
 After=network.target
 
 [Service]
-User=tefal092002
-Group=tefal092002
+User=vladimir
+Group=vladimir
 
-WorkingDirectory=/home/tefal092002/bot/
-Environment="PYTHONPATH=/home/tefal092002/bot/"
-ExecStart=/home/tefal092002/bot/.venv/bin/python /home/tefal092002/bot/main.py
+WorkingDirectory=/home/vladimir/bot/
+Environment="PYTHONPATH=/home/vladimir/bot/"
+ExecStart=/home/vladimir/bot/.venv/bin/python /home/vladimir/bot/main.py
 
 [Install]
 WantedBy=multi-user.target
